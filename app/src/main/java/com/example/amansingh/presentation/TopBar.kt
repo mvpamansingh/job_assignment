@@ -14,6 +14,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Mic
 import androidx.compose.material.icons.rounded.Search
+import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
@@ -44,9 +45,9 @@ fun TopBar(
         ),
         title = {
             Column(
-                modifier = Modifier
+                modifier = modifier
                     .fillMaxWidth()
-                    .height(500.dp),
+                    .height(100.dp),
                 verticalArrangement = Arrangement.Center
             ) {
 //                Row(
@@ -93,6 +94,8 @@ fun TopBar(
                     color = Color.White,
                     modifier = Modifier.padding(start = 16.dp) // Added padding to align with the row above
                 )
+
+
             }
         }
     )
