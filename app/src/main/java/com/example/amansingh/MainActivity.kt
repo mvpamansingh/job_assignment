@@ -55,7 +55,7 @@ class MainActivity : ComponentActivity() {
                 ) { innerPadding ->
 
                     JobScreen(modifier= Modifier.fillMaxSize()
-                        .padding(innerPadding) ,
+                        ,
                         hazeState = hazeState, paddingValues = innerPadding
                         )
                 }
