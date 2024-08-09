@@ -17,7 +17,7 @@ fun JobList(
 
     LazyColumn(modifier=modifier,
         contentPadding = PaddingValues(
-            top= paddingValues.calculateTopPadding(), bottom = 70.dp
+            top= paddingValues.calculateTopPadding()+22.dp, bottom = 70.dp
         ))
     {
         items(7) { index ->
