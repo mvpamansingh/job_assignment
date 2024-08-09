@@ -47,7 +47,7 @@ fun TopBar(
             Column(
                 modifier = modifier
                     .fillMaxWidth()
-                    .height(100.dp),
+                    .height(90.dp),
                 verticalArrangement = Arrangement.Center
             ) {
 //                Row(
